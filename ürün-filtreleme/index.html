@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ürün Filtreleme</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>İEÖ</h1>
+      <div class="search" style="width: 500px; position: relative; margin-right: 2rem;">
+        <input
+          type="text"
+          placeholder="Ünlü karakter ara.."
+          style="
+            width: 100%;
+            padding: 8px 12px;
+            outline: 0;
+            font-size: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-left: 10rem;
+            font-family: inherit;
+            font-weight: bold;
+            margin-right: 2rem;
+          "
+          id="input"
+        />
+        <i
+          class="bi bi-search"
+          style="
+            position: absolute;
+            top: 6px;
+            right: -90px;
+            color: black;
+            font-size: 22px;
+            cursor: pointer;
+          "
+        ></i>
+      </div>
+      <ul>
+        <li><i class="bi bi-person"></i>Giriş Yap</li>
+        <li><i class="bi bi-heart"></i>Favorilerim</li>
+        <li><i class="bi bi-cart"></i>Sepetim</li>
+      </ul>
+    </header>
+    <nav>
+      <ul>
+        <li>Yeni</li>
+        <li>Aksiyon</li>
+        <li>Korku</li>
+        <li>Gerilim</li>
+        <li>Komedi</li>
+        <li>Romantik</li>
+        <li>Belgesel</li>
+        <li>Spor</li>
+        <li>Tarih</li>
+      </ul>
+    </nav>
+    <section>
+      <div class="movie-wrapper">
+        <!-- Burada dinamik olarak ekleyeceğimiz film öğeleri olacak -->
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
